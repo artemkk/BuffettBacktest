@@ -1,4 +1,4 @@
-## 
+## DCA - Durable Competitive Advantage
 ## Summarization of Key Idea in each Chapter - In Progress
 ** Chapters included are relevant to the execution of the program and those excluded are deemed to be not. 
 
@@ -55,10 +55,32 @@
   Selling, General & Adminstrative (SGA) Expenses are composed of direct and indirect selling expenses and all general and administrative expenses incurred during given
   accounting period. Management salaries, advertising, travel costs, legal fees, commissions, payroll costs, etc. 
   
-  SGA as a percentage of GPM varies greatly with companies that can be identified to have a durable competitive advantage. 
-
-- Ch. 13: Research And Development: Why Warren Stays Away From It
-
+  SGA as a percentage of GPM varies greatly in companies that can be identified to have a durable competitive advantage, seemingly largely dependent on the industry their in.
+  Examples given are Coca Cola with 59% of SGA/GPM, Moody's with 25% and Proctor & Gamble at 61%. The distinction that is made is that these companies spend this figure
+  consistently year-to-year. Companies suffering from intense competition are required to vary their SGA costs significantly. GM has increased SGA/GPM from 28% to 83% in 5 years
+  and Ford has increased theirs from 89% to 780% over the same time frame. Sales decreased, revenue fell, SGA stayed the same is the likely cause.
+  
+  Bottom-line: The lower the SGA costs and SGA/GPM the better, especially if they can stay consistently low. < 30% is best, but it is common for companies with DCA to be 30% -
+  80%. Repeptitive flarings of 100% is a bad sign. Likewise, low-med SGA/GPM companies may be plauged with high R&D, capital expenditures, and/or interest expsense on debt load. 
+  Necessary to exclude companies with consistently high SGA/GPM percentages, but also necessary to conditionally include those with lower values in context of their other metrics
+  such as R&D, capital expenditures and interest expense/high debt. 
+  
+- Ch. 13: "Research And Development: Why Warren Stays Away From It"
+  Mentioned to be particularly important. A patent or some technological advancement can masquerade as a DCA, which in fact not make it durable but vulnerable. The threat of it
+  being made obsolete by new advancements is ever-present. High R&D spending also carries over into SGA increases due to associated rework of selling and administrative costs
+  that comes with new products and services. The book offers no quantitative guidance on assessing R&D costs but does present some examples, such as Intel needing to spend 30%
+  of Gross Profit on R&D consistently to remain competitive, along with even larger figures for pharmaceutical companies. Warren's rule is said to be: companies that have to
+  spend heavily on R&D have an inherent flaw in their competitive advantage that will always put their long-term economics at risk, which means they are not a sure thing.
+  Coca Cola and Moody's given as an example of companies that spend little on R&D, if nothing at all. 
+  
+  For programming, two approaches can be taken:
+  1) Set R&D/GP < 5%, indicating very tiny spending on R&D, and check it for a consistent time frame.
+  2) Be more liberal and use Intel's 30% R&D/GP example as a benchmark, making the program screen for consistent R&D/GP percentage below 25%. Would be wise to do some research
+  into current figures to see how they compare to 2007.
+  
+  In either approach, it will be necessary to screen outputs for the industries they are in and look at if their competitive advantage may be coming from patents or 
+  technology that could be made obsolete short-term (5 years) by other advancements. 
+  
 - Ch. 14: Depreciation: A Cost Warren Can't Ignore
 
 - Ch. 15: Interest Expense: What Warren Doesn't Want
